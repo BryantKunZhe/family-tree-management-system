@@ -83,7 +83,7 @@ class MainWindow(QMainWindow, InputDlg):
 
     def ShowAboutDlg(self):
         QMessageBox.about(self,"About","PyQt4+python3.6\n"+"author:BryantKunZhe\n"+
-            "Please fork me on https://github.com/BryantKunZhe")
+            "https://github.com/BryantKunZhe/family-tree-management-system")
 
     # 增加孩子节点
     def AddChildItem(self):
